@@ -1,0 +1,67 @@
+/* D'après une production de l'université d'Orléans */
+
+body{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header{
+  flex-basis: 100%;
+}
+
+main{
+  flex-basis: 70%;
+}
+aside{
+  flex-basis: 30%;
+}
+
+main ul{
+  flex-grow: 1;
+}
+
+header ul{
+ display: flex;
+ list-style: none;
+ justify-content: space-between;
+}
+
+header li{
+  flex-grow: 1;
+}
+
+ul{
+ list-style: none;   
+ padding: 1em; 
+}
+
+
+aside img{
+  height: 1em;
+}
+
+.personnage{
+  display: flex;
+}
+
+.personnage img{
+  height:10rem;
+  weight:auto;
+}
+header li, footer{
+  border: thin solid;
+  text-align: center;
+}
+
+h1{
+  background-color: lightgoldenrodyellow
+}
+
+h1, footer, header li{
+  padding:1rem;
+}
+
+footer{
+  margin:1rem;
+  flex-basis:100%;
+}
