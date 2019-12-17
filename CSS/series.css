@@ -5,14 +5,14 @@ body{
   flex-wrap: wrap;
 }
 
-header{
+{
   flex-basis: 100%;
 }
 
 main{
   flex-basis: 70%;
 }
-aside{
+{
   flex-basis: 30%;
 }
 
@@ -36,7 +36,7 @@ ul{
 }
 
 
-aside img{
+{
   height: 1em;
 }
 
@@ -44,16 +44,16 @@ aside img{
   display: flex;
 }
 
-.personnage img{
+{
   height:10rem;
   weight:auto;
 }
-header li, footer{
+{
   border: thin solid;
   text-align: center;
 }
 
-h1{
+{
   background-color: lightgoldenrodyellow
 }
 
@@ -61,7 +61,7 @@ h1, footer, header li{
   padding:1rem;
 }
 
-footer{
+{
   margin:1rem;
   flex-basis:100%;
 }
