@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="css/morpion.css">
+    <script src="javascript/morpion.js"  type="text/javascript"></script>
+  </head>
+  <body>
+      <header>
+          <h1>Le Jeu du morpion</h1>
+          <h2>Activité 1</h2>
+      </header>
+      <main>
+         
+        <h4>Je ne suis pas encore inscrit</h4>
+            <form action='morpion_jeu.php' method='get'>
+                <p>Nom : <input type='text' name='nom'/></p>
+                <p>Prénom : <input type='text' name='prenom'/></p>
+                <p>Sexe : 
+                    Homme <input type='radio' name='sexe' value='H'/>
+                    Femme <input type='radio' name='sexe' value='F'/>
+                </p>
+                <p>Enseignements de spécilaité : <br/>
+                    Math <input type='checkbox' name='spe' value='math'/>
+                    SPCH <input type='checkbox' name='spe' value='spch'/>
+                    NSI <input type='checkbox' name='spe' value='nsi'/>
+                    SVT <input type='checkbox' name='spe' value='svt'/>
+                    SES <input type='checkbox' name='spe' value='ses'/>
+                </p>
+                <p>Classe : 
+                    <select name='classe'>
+                        <option value='seconde'>seconde</option>
+                        <option value='premiere'>première</option>
+                        <option value='terminale'>terminale</option>
+                    </select>
+                </p>
+                <p><input type='submit' value='valider'/></p>
+            </form>
+      </main>
+      <aside>
+        <div>
+          <h3>Les régles du Jeu</h3>
+          Aligner troix croix ou trois ronds pour gagner. Les diagonales sont prises en compte.
+        </div>
+        <div>
+          <h3>Identifiez-vous !</h3>
+          <h4>Je suis déjà inscrit</h4>
+          <form>
+              <p>Login : <input type='text' name='login'/></p>
+              <p>Mot de passe : <input type='password' name='password'/></p>
+              <p><input type='submit' value='Envoyer'/></p>
+          </form>
+        </div>
+      </aside>
+      <footer>
+        NSI LFT
+      </footer>
+  </body>
