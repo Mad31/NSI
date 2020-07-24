@@ -6,7 +6,7 @@ Documents pour enseignement NSI
  `apt install apache2`
  ### 1.2 Espace perso `public HTML`
  En `root` :
- '''Bash
+ '''
  a2enmod userdir
  systemctl restart apache2
  ```
