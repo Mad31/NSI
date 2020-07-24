@@ -6,10 +6,11 @@ Documents pour enseignement NSI
  `apt install apache2`
  ### 1.2 Espace perso `public HTML`
  En `root` :
+ 
  '''
  a2enmod userdir
  systemctl restart apache2
- ```
+ '''
 
  UserDir public_html
  `<Directory /home/*/public_html>
