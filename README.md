@@ -5,6 +5,12 @@ Documents pour enseignement NSI
 ### 1. 1 apache2
  `apt install apache2`
  ### 1.2 Espace perso `public HTML`
+ En `root` :
+ '''Bash
+ a2enmod userdir
+ systemctl restart apache2
+ ```
+
  UserDir public_html
  `<Directory /home/*/public_html>
 AllowOverride FileInfo AuthConfig Limit
